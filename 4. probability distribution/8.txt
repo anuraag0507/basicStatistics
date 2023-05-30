@@ -1,0 +1,18 @@
+The normal distribution and quantiles
+Sometimes we have a probability that we want to associate with a value. This is basically 
+the opposite situation as the situation described in the previous question. Say we want the value of a woman's hair length that corresponds with the 0.2 quantile (=20th percentile). Let's consider visually what this means:
+
+
+
+In the visualization, we are given a blue area with a probability of 0.2. We however want to know 
+the value that is associated with the yellow dotted vertical line. This value is the 0.2 quantile (=20th percentile) and divides the curve in an area that contains the lower 20% of the scores and an area that the rest of the scores. If our variable is normally distributed, in R we can use the function qnorm() to do so. We can specify the probability as the first parameter, then specify the mean and then specify the standard deviation, for example, qnorm(0.2, mean = 25, sd = 5).
+
+Instructions
+100 XP
+Calculate the 85th percentile of the distribution of female hair length and round this value to two decimals.
+ Note that the mean is 25 and the standard deviation is 5.
+
+
+
+# 85th percentile of female hair length
+round(qnorm(0.85, mean = 25, sd = 5), 2)

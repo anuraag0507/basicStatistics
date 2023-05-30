@@ -1,0 +1,18 @@
+Interpreting areas under the curve
+In the last exercise, we calculated the area under the curve both left and right of our observation. Let's now visualize this area under the curve such that we get a better idea what this means.
+
+
+
+The red area here refers to the area under the curve. In the top most visualization, you can see that the area under the curve is quite large and covers the largest part of the distribution. This is because we assigned the pnorm function to calculate the lower.tail area below the value of 32. In contrast, in the lower visualization we specified lower.tail to FALSE and as such calculated the area under the curve from the observation 32 onwards.
+
+By now you may have realized that this area under the curve represents a probability. In the top visualization this represents the probability of finding a hipster with a beard length smaller or equal to 32. Can you guess what the area under the curve represents in the bottom the visualization?
+
+Instructions
+50 XP
+Possible Answers
+
+Ans. > This represents the probability of finding a hipster with a beard length larger or equal to 32
+
+This represents a probability of 1
+
+This represents the probability of finding a hipster with a beard length smaller or equal to 32.

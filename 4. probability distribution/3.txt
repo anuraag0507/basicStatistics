@@ -1,0 +1,24 @@
+The cumulative probability distribution
+In the last two exercises, we saw the probability distributions of a discrete and a continuous variable. 
+In this exercise we will jump into cumulative probability distributions. Let's go back to our probability density function of the first exercise:
+
+
+
+All the probabilities in the table are included in the dataframe
+probability_distribution which contains the variables outcome and probs. We could sum individual probabilities in order to get a cumulative probability of a given value. However, in some cases, the function cumsum() may come in handy. What cumsum() does is that returns a vector whose elements are the cumulative sums of the elements of the arguments. For instance, if we would have a vector which contains the elements: c(1, 2, 3), cumsum() would return c(1, 3, 6)
+
+Instructions
+100 XP
+Calculate the probability that a variable x is smaller or equal to two. Put the result in the variable prob. You can use the values from the table displayed above.
+Calculate the cumulative probability that a variable x is respectively 0, smaller or equal to one, smaller or equal to two, and smaller or equal to three. 
+Use the cumsum() functions for this and print the output to the console.
+
+
+
+
+# probability that x is smaller or equal to two
+prob <- (0.1 + 0.2 + 0.3)
+
+#' probability that x is 0, smaller or equal to one,
+#' smaller or equal to two, and smaller or equal to three
+cumsum(c(0.1, 0.2, 0.3, 0.2))

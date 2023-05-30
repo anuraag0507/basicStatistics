@@ -1,0 +1,32 @@
+The central limit theorem
+Earlier we touched on the sampling distribution and its mean and standard deviations. Now, we will look at the central limit theorem, one of the most important theorems when it comes to inferential statistics. Briefly this theorem states the following:
+
+"Provided that the sample size is sufficiently large, the sampling distribution of the sample mean is approximately normally distributed even if the variable of interest is not normally distributed in the population"
+
+In this exercise we will take a look at a new population of simulated household income of citizens in the United States. The data is stored in a variable called household_income. This population is right skewed. We will take a 1000 samples of n = 200 from this population and calculate the sample mean each time. You will see that the sampling distribution, just as the central limit theorem states, is normally distributed.
+
+Instructions
+100 XP
+Make a histogram of the variable household_income and see how the population is skewed to the right.
+Make a histogram of the variable sample_means. Can you see how this variable looks normally distributed?
+You can press on the button "Previous plot" to check the previous histogram.
+
+
+
+
+
+
+# empty vector sample means
+sample_means <- NULL
+
+# take 200 samples from scandinavia_data
+for (i in 1:1000){
+  samp <- sample(household_income, 200)
+  sample_means[i] <- mean(samp)
+}
+
+# make a histogram of household_income
+hist(household_income)
+
+# make a histogram of sample_means
+hist(sample_means)

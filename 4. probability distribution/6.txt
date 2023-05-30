@@ -1,0 +1,26 @@
+The normal distribution
+Now that we know what probability mass and probability density 
+functions are and we know how to calculate some summary statistics, let's consider 
+the normal distribution. The normal distribution, als known as the Gaussian distribution, is the probability distribution that 
+is encountered most frequently. It is characterized by a nice bell curve. A normal distribution is centered at its mean called . Its spread is defined by the standard deviation. 
+The image below gives an idea how the probability density function and the standard deviation of a normal distribution are related:
+
+
+
+Look at the visualization; what is the probability that an observation from a normal distribution is between
+ 1 standard deviation below the mean and 2 standard deviations above the mean?
+
+
+
+Possible Answers
+
+This probability is 0.68
+
+This probability is 0.95
+
+Ans. This probability is 0.815
+
+This probability is 0.61
+
+Submit Answer
+

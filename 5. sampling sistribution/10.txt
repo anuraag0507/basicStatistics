@@ -1,0 +1,29 @@
+Calculating areas with sample means
+So far we have calculated the probabilities of observations using mean and standard deviation values from the population. However, we can also calculate these observation probabilities using mean and standard deviation values from the sample. For instance, we could have a question along the lines of what is the probability that the sample mean of the beard length of 50 Scandinavian hipsters is larger or equal to 26 millimeters. Because in this example we are talking about a specific sample from the population, we make use of the sampling distribution and not the population distribution.
+
+Because we make use of the sampling distribution, we are now using the standard deviation of the sampling distribution which is calculated using the formula .
+
+Instructions
+100 XP
+Calculate the probability that a sample mean of the beard length of 50 Scandinavian hipsters is larger or equal to 26 millimeters. Recall that the population is contained in the variable scandinavia_data. Take all the steps indicated by comments in the editor.
+
+
+
+
+
+
+
+# calculate the population mean
+population_mean <- mean(scandinavia_data)
+
+# calculate the population standard deviation
+population_sd <- sd(scandinavia_data)
+
+# calculate the standard deviation of the sampling distribution
+sampling_sd <- population_sd / sqrt(50)
+
+# calculate the Z score
+z_score <- (26 - population_mean) / sampling_sd
+
+# cumulative probability calculation. Don't forget to set lower.tail to FALSE
+pnorm(z_score, lower.tail = FALSE)

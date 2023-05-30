@@ -1,0 +1,17 @@
+Calculating A Confidence Interval for a Proportion II
+In your study you found that a proportion p of 0.35 of your sample said they have road rage. The standard error of this proportion is found through square root of: p multiplied by 1 - p, divided by n. Let's try this!
+
+Instructions
+100 XP
+Add a line of code that calculates the standard error of p, and stores this as se
+Remember to format your calculations correctly and use () where appropriate
+If you want to take a look at your dataset, it is still saved in your console as roadrage
+
+
+
+
+
+# Make p the proportion of the sample with road rage 
+p <- 70 / 200
+# Find the standard error of p
+se <- sqrt( (p * (1 - p)) / 200)

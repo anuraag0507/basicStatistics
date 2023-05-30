@@ -1,0 +1,18 @@
+The normal distribution and Z scores
+A special form of the normal probability distribution is the standard normal distribution, 
+also known as the z - distribution. A z distribution has a mean of 0 and a standard deviation of 1. 
+Often you can transform variables to z values. You can transform the values of a variable to z-scores by subtracting the mean, and dividing this by the standard deviation. If you perform this transformation on the values of a data set, your transformed data set will ave a mean of 0 and a standard deviation of 1. The formula to transform a value to a z score is the following:
+
+ 
+
+The Z-score represents how many standard deviations from the mean a value lies.
+
+Instructions
+100 XP
+Imagine we have a woman with a hair length of 38 centimers and the average hair length was 25 centimers and the standard deviation was 5 centimers. Calculate the Z value for this woman and store it in the variable z_value. 
+Round z_value to one decimal.
+
+
+
+# calculate the z value and store it in the variable z_value
+z_value <- (38 - 25) / 5

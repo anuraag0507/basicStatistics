@@ -1,0 +1,21 @@
+Sampling from the population
+In this lab we have access to the entire population. In real life, this is rarely the case. Often we gather information by taking a sample from a population. In the lectures, you've become familiar with the male beard length (in millimeters) of hipsters in Scandinavia. In this lab, we will be working with this example.
+
+If we were interested in estimating the average male beard length of hipsters in Scandinavia, in R we can use the sample() function to sample from the population. For instance, to sample 50 inhabitants from our Scandinavian male hipster population which is included in the variable scandinavia_data, we could do the following: sample(scandinavia_data, size = 50). This command collects a simple random sample of size 50. If we didn't have access to the entire male hipster Scandinavian population, working with these 50 inhabitants would be considerably simpler than having to go through the entire Scandinavian male hipster population.
+
+Instructions
+100 XP
+Make sure not to remove the set.seed(11225) code. This makes sure that you will get the same results as the solution code
+Sample 100 values from the dataset scandinavia_data and store this in a variable first_sample
+Calculate the mean of first sample and print the result.
+
+
+
+
+
+# sample
+set.seed(11225)
+first_sample <- sample(scandinavia_data, size = 100)
+
+# calculate average
+mean(first_sample)

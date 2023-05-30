@@ -1,0 +1,24 @@
+Zscores
+Recall the concept of Z scores from the lectures. Z scores are standardized scores how far a parameter is removed from its mean. A Z score with value 2 means that an observation is 2 standard deviations away from its population mean. Also recall that the formula for the Z score is the following:
+
+ 
+
+In this formula,  refers to the observation for which you want to calculate the z score, while  refers to the population mean of the phenomen and  refers to the population standard deviation.
+
+To illustrate the concept of the Z score, let's go back to our scandinavia_data dataset. In this population of male hipsters from Scandinavia, the average beard length is 25. The standard deviation in the population is 3.47. Suppose we had a hipster with a beard length of 32mm, this would be unusual for this population and thus would have a rather high Z score.
+
+Instructions
+100 XP
+Calculate the Z score of this hipster with a beard of 32 millimeter and store it in a variable called z_score
+print the variable z_score to the console
+
+
+
+
+
+# z_score of hipster with a beard of 32 millimeter
+z_score <- (32 - 25) / 3.47
+
+
+# print the variable z_score to the console
+z_score

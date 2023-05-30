@@ -1,0 +1,21 @@
+Sampling distributions and proportions
+In all the examples that we have seen, we worked with continuous variables such as beard length. However, in practice we often work with proportions such as the proportion / percentage of hipsters in the population of London. Imagine that we took a sample of 200 from the population of London and based on this sample we concluded that London's population is 10% hipster. The mean of the sampling distribution thus is 10%.
+
+But how do we calculate the standard deviation of the sampling distribution? From the lectures, you may recall the following formula: 
+ 
+. Let's start practicing with sampling distributions and proportions.
+
+Instructions
+100 XP
+Given that the average percentage of a sample of 200 from the London population has a percentage of hipsters of 10%, calculate the standard deviation of the sampling distributions and store this in a variable called sample_sd.
+
+
+
+
+
+
+# sample proportion
+proportion_hipsters <- 0.10
+
+# standard deviation of the sampling distribution
+sample_sd <- sqrt((0.10 * (1 - 0.10)) / 200)

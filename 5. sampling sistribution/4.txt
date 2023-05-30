@@ -1,0 +1,25 @@
+Standard deviation of the sampling distribution
+In the previous weeks you have become familiar with the concept of standard deviation. You may recall that this concept refers to the spread of a distribution. In R you can calculate the standard deviation using the function sd().
+
+However, the standard deviation of the sampling distribution is called the standard error. The standard error is calculated slightly differently from the standard deviation. The formula for the standard error can be found below:
+
+
+In this formula, the sigma refers to the standard deviation, while n refers to the sample size of the sample.
+
+Instructions
+100 XP
+Calculate the standard deviation of the population and put it in the variable population_sd. Note that the population can be found in the variable scandinavia_data. Print population_sd to the console.
+Use population_sd to calculate the standard error of a sample of 200 cases and put it in the variable sampling_sd. Print sampling_sd to the console.
+
+
+
+
+
+
+# standard deviation of the population
+population_sd <- sd(scandinavia_data)
+population_sd
+
+# standard deviation of the sampling distribution
+sampling_sd <- population_sd / sqrt(200)
+sampling_sd

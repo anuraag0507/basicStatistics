@@ -1,0 +1,26 @@
+Using a for loop
+Not surprisingly, every time we take another random sample, we get a different sample mean. It's useful to get a sense of just how much variability we should expect when estimating the population mean this way.
+
+The distribution of sample means, or the sampling distribution, can help us understand this variability. However, before continuing with the sampling distirubtion, we will firstly introduce the concept of a for loop in R.
+
+Every time some operation has to be repeated a specific number of times, a for loop may come in handy. We only need to specify how many times or upon which conditions those operations need execution: we assign initial values to a control loop variable, perform the loop and then, once finished, we typically do something with the results.
+
+Instructions
+100 XP
+Look at the example in the sample code and think what this code will do. Subsequently, press "Submit Answer".
+
+
+
+
+
+# initialize an empty vector
+new_number <- NULL
+
+#'run an operation 10 times.
+#'The ith position of new number will be set to i
+#'at the end of the loop, the vector new_number is printed
+for (i in 1:10){
+  new_number[i] <- i
+}
+
+print(new_number)

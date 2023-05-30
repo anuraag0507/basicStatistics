@@ -1,0 +1,16 @@
+Calculating areas with sample means (2)
+In the last exercise, we calculated the area under the curve right of our sample mean of 26. We found that this area had a probability of 0.023. Let's visualize this:
+
+
+
+You may notice that this distribution of sample means is much narrower than the distribution of observations of individual hipsters. How would you interpret the red area?
+
+Instructions
+50 XP
+Possible Answers
+
+The red area is the probability of obtaining a hipster with a mean beard length equal or larger than 26.
+
+Ans.> The red area is the probability of obtaining a sample with a mean beard length equal or larger than 26 millimeter based on a sample of 50 hipsters.
+
+The red area constitutes a probability of 1

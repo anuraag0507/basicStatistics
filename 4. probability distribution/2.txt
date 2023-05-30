@@ -1,0 +1,26 @@
+Probability mass and density functions (2)
+For continuous variables, the values of a variable are associated with a probability density. To get a probability, you will need to consider an interval under the curve of the probability density function. Probabilities here are thus considered surface areas.
+
+In this exercise, we will simulate some random normally distributed data using the rnorm() function. This data is contained within the data vector. You will then need to visualize the data.
+
+Instructions
+100 XP
+Check the documentation of the the dnorm function using help(dnorm)
+Now calculate the density of the data vector and store it in a vector called density
+Finally make a plot with as x variable the data vector and as y variable the density variable
+
+
+
+
+# simulating data
+set.seed(11225)
+data <- rnorm(10000)
+
+# check for documentation of the dnorm function
+help(dnorm)
+
+# calculate the density of data and store it in the variable density
+density <- dnorm(data)
+
+# make a plot with as x variable data and as y variable density
+plot(x = data, y = density)

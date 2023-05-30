@@ -1,0 +1,18 @@
+Standard deviation of the sampling distribution (2)
+The standard deviation of the sampling distribution, also known as standard error, is affected by the values of:
+
+The population standard deviation
+The sample size of the samples taken from the population
+What happens to the standard error when i) the standard deviation of the population becomes larger, ii) the size of the sample becomes larger
+
+Instructions
+50 XP
+Possible Answers
+
+Ans.> The standard error becomes larger. The standard error becomes smaller.
+
+The standard error becomes smaller. The standard error becomes smaller.
+
+The standard error becomes larger. The standard error becomes larger.
+
+The standard error remains unaffected in both cases

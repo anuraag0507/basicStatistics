@@ -1,0 +1,30 @@
+The binomial distribution
+The binomial distribution is important for discrete variables. 
+There are a few conditions that need to be met before you can consider a random variable to binomially distributed:
+
+There is a phenomenon or trial with two possible outcomes and a constant probability 
+of success - this is called a Bernoulli trial
+All trials are independent
+Other ingredients that are essential to a binomial distribution 
+is that we need to observe a certain number of trials, let's call this n, and we count the number of successes in which we are interested, let's call this x. Useful summary statistics for a binomial distribution are the same as for the normal distribution: the mean and the standard deviation.
+
+The mean is calculated by multiplying the number of trials n by the 
+probability of a success denoted by p. The standard deviation of a binomial distribution is calculated by the following formula: .
+
+Instructions
+100 XP
+Consider an example where we have made an exam consisting of 25 multiple choice questions. 
+Each questions has 5 possible answers. This means that the probability of answering a question correctly by chance is 0.2. Calculate the mean of this distribution and store it in a variable called mean_chance
+Calculate the standard deviation of this distribution and store it in the variable std_chance.
+
+
+
+
+
+
+
+# calculate the mean and store it in the variable mean_chance
+mean_chance <- 25 * 0.2
+
+# calculate the standard deviation and store it in the variable std_chance
+std_chance <- sqrt(25 * 0.2 * (1 - 0.2))

@@ -1,0 +1,31 @@
+Mean of the sampling distribution
+The mean of a sample that you take from the population will never be very far away from the population mean (provided that you randomly sample from the population). Furthermore, the mean of the sampling distribution, that is the mean of the mean of all the samples that we took from the population will never be far away from the population mean. Let's observe this in practice.
+
+Instructions
+100 XP
+Calculate the mean of the population and print it. Note that the population is included in the variable scandinavia_data.
+Calculate the mean of the sample means and print it. Note that the sample means are included in the variable sample_means.
+Note how close the two are
+
+
+
+
+
+
+# set the seed such that you will get the same sample as in the solution code
+set.seed(11225)
+
+# empty vector sample means
+sample_means <- NULL
+
+# take 200 samples from scandinavia_data
+for (i in 1:500){
+  samp <- sample(scandinavia_data, 200)
+  sample_means[i] <- mean(samp)
+}
+
+# mean scandinavia data
+mean(scandinavia_data)
+
+# mean sample means
+mean(sample_means)

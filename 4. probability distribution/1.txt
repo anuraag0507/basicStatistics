@@ -1,0 +1,21 @@
+Probability mass and density functions
+From the lectures you may recall the concepts of probability mass and density functions. Probability mass functions relate to
+ the probability distributions discrete variables, while probability density functions relate to probability distributions of continuous variables. Suppose we have the following probability density function:
+
+
+
+Instructions
+100 XP
+Using the barplot function, make a probability histrogram of 
+the above above probability mass function. Specify the height of the bars 
+with the y variable and the names of the bars (names.arg), that is, the labels on the x axis, with the x variable in your dataframe.
+
+
+
+
+
+# the data frame
+data <- data.frame(outcome = 0:5, probs = c(0.1, 0.2, 0.3, 0.2, 0.1, 0.1))
+
+# make a histogram of the probability distribution
+barplot(names = data$outcome, height = data$probs)

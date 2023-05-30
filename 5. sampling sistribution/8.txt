@@ -1,0 +1,31 @@
+Calculating areas with subjects
+A zscore by itself may not always be easy to interpret. Yes, it does indicate the amount of standard deviations away from the population mean, but this may sound like jibberish to many people. Wouldn't it be great to translate a z score to a probability?
+
+Z scores can be easily translated to probabilities. There are multiple ways to do so:
+
+Look up the z score in a table
+Calculate the probability using R
+In R we can use the pnorm() function to calculate the probability of obtaining a given score or a more extreme score in the population. Basically this calculate an area under the bell curve. The function pnorm() has several parameters you can include such as:
+
+q: The observation for which you want to calculate the probability
+mean: The population mean
+sd: The population standard deviation
+lower.tail: Indicates whether you want to calculate the area under the curve left of your observations or right of your observations
+Let's look at how to use pnorm() and let's play around with the lower.tail option.
+
+Instructions
+100 XP
+Instructions
+100 XP
+Recall that the z score for the scandinavian hipster in the previous exercise was 2.02. Calculate the area left of this observation by specifying lower.tail = TRUE in pnorm and print this probability.
+Now calculate the area under the curve right of this observation by specifying lower.tail = FALSE and print this probability.
+
+
+
+
+
+# calculate the area under the curve left of the observation
+pnorm(2.02, lower.tail = TRUE)
+
+# calculate the area under the curve right of the observation
+pnorm(2.02, lower.tail = FALSE)
