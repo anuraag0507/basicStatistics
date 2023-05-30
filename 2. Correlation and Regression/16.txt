@@ -1,0 +1,20 @@
+Adding A Line
+We can use abline() to add any line we like, as long as the first argument is the intercept and the second is the slope. Let's try it out! money and prosocial are still saved in your console.
+
+Instructions
+100 XP
+Add a line of code to show the mean value of the dependent variable
+Remember that the mean line is constant accross all values of the independent variable, so there is no slope!
+
+
+
+
+
+
+# Your plot
+plot(money, prosocial, xlab = "Money", ylab = "Prosocial Behavior")
+# Your regression line
+line <- lm(prosocial ~ money)
+abline(line)
+# Add a line that shows the mean of the dependent variable
+abline(mean(prosocial), 0)

@@ -1,0 +1,7 @@
+Probability Terms III
+Disjoint exhaustive events are mutually exclusive, so only one of the events can happen at a time.
+
+A and B are disjoint and exhaustive. Assume that the probability of A is 0.33 and B is 0.2.
+
+# What is the probability of the intersection of A and B
+0.53

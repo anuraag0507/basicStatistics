@@ -1,0 +1,17 @@
+Joint and Marginal Probabilities
+Enter plants into your console to see frequency information about 90 plants in a shop. We have recorded whether a plant lives indoors or outdoors, and whether it is a flower, a succulent or a tree.
+
+You can calculate the probabilities of a given plant and living conditions based on the frequency with which this occurs in the table. For example, the probability of a plant being a tree is 14/90 = 0.1555556.
+
+Instructions
+100 XP
+In your console, calculate the answers to the questions in your script
+Report the answers in your script to 2 decimal places
+Remember to use () when necessary in your calculations
+
+
+
+# What is the probability that a plant is an indoor flower?
+0.33
+# What is the probability that a plant lives outdoors?
+0.4

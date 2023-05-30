@@ -1,0 +1,16 @@
+Probability Tree II
+In your scrabble letter bag you have three A's and two E's. You take one letter out of the bag at a time, but this time you do not return the leters to the bag before continuing with the following draw (i.e. trials are dependent). You draw three tiles in total. Lets calculate the probabilities of some of the possible outcomes!
+
+Instructions
+100 XP
+Draw a probability tree on pen and paper of this (we can't force you to do this, but it will probably make things easier)
+In your script, write out the calculations to assign the probabilities of the given outcomes to their names.
+Do not simplify your fractions
+
+
+# What is the probability of AAE?
+aae <- (3/5) * (2/4) * (2/3)
+# What is the probability of EAE?
+eae <- (2/5) * (3/4) * (1/3)
+# What is the probability of AAA or EEA?
+aaaeea <- (3/5) * (2/4) * (1/3) + ( (2/5) * (1/4) * (3/3) )

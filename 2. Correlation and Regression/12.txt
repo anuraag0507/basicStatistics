@@ -1,0 +1,14 @@
+The Regression Equation
+The regression equation is Y = a + bx, where a is the intercept and b is the slope of the line. Imagine we are investigating how extraversion affects risk taking. According to the regression formula, someone with an extraversion level of 0 will have a risk taking level of 3, and with every single unit increase in extraversion, risk taking increases by 3.3.
+
+Instructions
+100 XP
+Use the information you have to establish the values of a and b.
+In your console, use your regression equation to calculate the expected level of risk taking of someone with an extraversion level of 7.
+Report this value in your script
+
+
+
+
+# What is the risk taking level of a person with an extraversion level of 7?
+26.1

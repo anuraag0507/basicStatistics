@@ -1,0 +1,12 @@
+Bayesian Probability I
+Because of Bayes law, which of the following statements is true?
+
+Instructions
+50 XP
+Possible Answers
+
+ANS.> Information about what type of plant something is can help tell us whether or not it lives outdoors.
+
+The probability that a plant lives outdoors, given that it is a tree is equivalent to the probability that it is a tree, given that it lives outdoors.
+
+We can calculate the probability that a plant

@@ -1,0 +1,14 @@
+Correlation and Causation
+You measured how much money people have and their education level in a town. The graph on the right shows the results. We cannot say that more educaion causes more money, we say it is related to more money. Which of the following is not a reason why education is only related to money?
+
+Instructions
+50 XP
+Possible Answers
+
+Ans.> There could be a third unmeasured variable that influences only money
+
+There could be a third unmeasured variable that influences only education
+
+There could be a third unmeasured variable that influences both education and money
+
+Money and education could influence each other

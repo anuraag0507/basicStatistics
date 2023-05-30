@@ -1,0 +1,14 @@
+Pearson's R III
+Which of the following Pearson's r values are likely to belong to this graph?
+
+Instructions
+50 XP
+Possible Answers
+
+-0.26
+
+0.418
+
+1.0
+
+ANS.> -0.77

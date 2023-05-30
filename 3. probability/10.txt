@@ -1,0 +1,12 @@
+Probability Terms II
+Independent intersecting events are two events that do not influence each other and can occur similtaneously. An example might be the outcome of rolling two dices.
+
+A and B are independent and intersect. Assume that the probability of A is 0.3 and B is 0.2.
+
+Instructions
+100 XP
+Calculate the probability of the outcome including both A and B.
+
+
+# probability of the outcome including both A and B
+0.06

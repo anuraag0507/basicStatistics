@@ -1,0 +1,9 @@
+Possible Answers
+
+numeric
+
+integer
+
+Ans.  factor
+
+characters

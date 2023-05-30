@@ -1,0 +1,14 @@
+Pearson's R I
+Pearson's r is a measure of how strongly the variables are correlated with each other. Look at the graph on the right. Which of the following Pearson's r values are likely to belong to this graph?
+
+Instructions
+50 XP
+Possible Answers
+
+-0.26
+
+0.418
+
+ANS.> 1.0
+
+-0.77

@@ -1,0 +1,28 @@
+Finding The Line
+When we draw a line through our data, we measure error as the sum of the difference between the observation and the line. We usually square this so that positive and negative residuals don't cancel each other out. The line that gives us the least error is our regression line.
+
+To do this you should use the sum() function, which returns the sum of all vectors provided between brackets. You can also put ^2 inside the brackets with your vectors in order to square the differences. For example, sum((vector1 - vector2) ^ 2).
+
+Instructions
+100 XP
+y1 contains the predicted values of y according to line 1, y2 contains the predictes value of y according to line 2, and y contains the actual observed values of variable y.
+In your script, calculate the squared error of line 1 and line 2.
+Take a look at the output!
+
+
+
+
+# predicted values of y according to line 1
+y1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+# predicted values of y according to line 2
+y2 <- c(2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+
+# actual values of y
+y <- c(3, 2, 1, 4, 5, 10, 8, 7, 6, 9) 
+
+# calculate the squared error of line 1
+sum((y-y1)^2)
+
+# calculate the squared error of line 2
+sum((y-y2)^2)

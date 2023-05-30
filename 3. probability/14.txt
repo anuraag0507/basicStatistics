@@ -1,0 +1,16 @@
+Practise With Sets III
+Now let's pretend that you have 6 alcohol drinkers and 4 non-alcohol drinkers in a room. Without knowing who is who, you pick three in sequence to take part in your study. Let's consider the probability of various outcomes.
+
+Instructions
+100 XP
+Answer the questions in your script by writing out your calculations in full below
+Do not simplify your fractions
+
+
+
+# Calculate the probability that the first two people drink alcohol
+ 6/10 * 5/9
+# Calculate the probability that at the first and third person drink alcohol
+(6/10 * 5/9 * 4/8) + (6/10 * 4/9 * 5/8)
+# Calculate the complement of the the probability that none of the people drink
+1 - (4/10 * 3/9 * 2/8)

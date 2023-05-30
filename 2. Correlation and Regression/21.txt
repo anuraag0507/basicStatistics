@@ -1,0 +1,22 @@
+Putting It Together: Contingency Tables
+Let's say you ran the same study looking at how much money people have and their education level, but you used categories instead. You measured education (the independent variable) as "high school" or "university" and money (the dependent variable) as "high" or "low". This information is saved in your console as td.
+
+Instructions
+100 XP
+Enter td into your console and have a look at your contingency table
+In your console, calculate what percentage of people with high money are university educated
+In your console, calculate what percentage of people with low money are high school educated
+What kind of education is linked to more money?
+Answer all questions in your script. Round numerical answers to one decimal place, and make sure text answers are in lower case and used as strings (i.e. using "").
+
+
+
+
+# Percentage of people with high money that are university educated
+83.3
+
+# Percentage of people with low money that are high schol educated
+72.7
+
+# What kind of education is linked to more money?
+"university"

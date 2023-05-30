@@ -1,0 +1,12 @@
+Randomness II
+You roll a fair dice four times. The outcome is {6, 6, 6, 6}. Is this random?
+
+Instructions
+50 XP
+Possible Answers
+
+Ans.> Yes
+
+No
+
+Impossible to tell

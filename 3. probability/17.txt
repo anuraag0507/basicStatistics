@@ -1,0 +1,18 @@
+Conditional Probability I
+Enter plants into your console to see information about whether 90 plants live indoors or outdoors, and whether they are a flower, a succulent or a tree. The values in this table represent probabilities, calculated from frequencies.
+
+Let's use these probability values to find some conditional probabilities. To do this you need to use the formula .
+
+Instructions
+100 XP
+In your console, calculate the answers to the questions in your script
+Report the answers in your script to 2 decimal places (you can always use the round() function for this, with the argument digits = 2)
+Remember to use () when necessary in your calculations
+
+
+# What is the probability a plant lives indoors?
+0.6
+# What is the probability a plant is a flower, given that we know it lives indoors?
+0.55
+# What is the probability a plant lives indoors, given that we know it is a succulent?
+0.76

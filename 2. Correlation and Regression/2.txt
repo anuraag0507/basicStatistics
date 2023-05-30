@@ -1,0 +1,16 @@
+Making a Contingency Table
+Saved in your console is a dataset called smoking, which contains data about amount of tobacco smoked per day in a sample of 88 students. The student variable says whether a student is in high school, or university, and the tobacco variable indicates how many grams of tobacco are smoked per day. We expected that there would be more tobacco use (the dependent variable) in university (the independent variable).
+
+We can make a contingency table of this data using the table() function. While previously you may have used this with one variable, this time you will use it with two. The first variable used with table() will appear in the rows, while the second variable will appear in the columns.
+
+Instructions
+100 XP
+Make a contingency table with amount of tobacco smoked as rows, and education as columns.
+
+
+
+
+
+
+# Make a contingency table of tobacco consumption and education
+table(smoking$tobacco, smoking$student)

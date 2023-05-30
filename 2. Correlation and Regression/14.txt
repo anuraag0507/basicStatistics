@@ -1,0 +1,18 @@
+Finding The Regression Coefficients in R
+We can find the regression coefficients for our data using the lm() function, which takes our model as the first argument: first the y variable, followed by a ~ symbol, then the x variable. For instance: lm(y ~ x). The output labels the value of the intercept with 'intercept', and the value of the slope with the name of the independent variable. Let's try this out with our study that investigated how money (independent variable) predicted prosocial behavior (dependent variable).
+
+Instructions
+100 XP
+In your script, write a line of code using the lm() function to find the regression coefficients for how much money predicts prosocial behavior
+Take a look at the output
+
+
+
+
+
+
+# Our data
+money <- c(1,2,3,4,5,6,7,8,9,10)
+prosocial <- c(3, 2, 1, 4, 5, 10, 8, 7, 6,9)
+# Find the regression coefficients
+lm(prosocial~money)

@@ -1,0 +1,11 @@
+Sample Space I
+You have a bag containing three A and two E scrabble letters. 
+You consider the sample space of drawing three letters from the bag without replacing them (i.e. each trial is dependent).
+
+Instructions
+100 XP
+In your script, make a vector called samplespace 
+containing each value of the sample space as a string.
+
+# List your sample space
+samplespace <- c("AAA", "AAE", "AEE", "AEA", "EAE", "EEA", "EAA")

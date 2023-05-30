@@ -1,0 +1,12 @@
+Sample Space II
+You have a bag containing three A and two E scrabble letters, and draw three letters from the bag. This means your sample space is (AAA, AAE, AEE, EAA, EEA, AEA, EAE).
+
+Instructions
+100 XP
+Answer the questions in your script
+
+
+# The probability  that none of the outcomes in the sample will occur
+0
+# The probability that at least one of the outcomes in the sample space will occur
+1

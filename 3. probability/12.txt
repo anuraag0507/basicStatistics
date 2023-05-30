@@ -1,0 +1,14 @@
+Practise With Sets I
+You approach 3 people in the street to ask whether or not they drink alcohol. Think about the terminology for such a proccess.
+
+Instructions
+100 XP
+Answer the questions regarding the above scenario
+Use lower case letters and ""when answering with word
+
+
+
+# What do we call the process of approaching people and asking?
+"experiment"
+# How many trials are there?
+3

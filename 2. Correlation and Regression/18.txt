@@ -1,0 +1,14 @@
+R Squared II
+In addition to being the reduction in residual error from using the regression line over the mean line, and, of course the pearson correlation coefficient squared, how else can we describe the R squared?
+
+Instructions
+50 XP
+Possible Answers
+
+The variation in the dependent variable explained by the mean of the independent variable
+
+The variation in the independent variable explained by the regression line
+
+Ans.> The variation in the dependent variable explained by the independent variable
+
+The variation in the independent variable explained by the dependent variable

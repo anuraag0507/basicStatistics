@@ -1,0 +1,22 @@
+Independence
+Enter plants into your console to see information about whether 90 plants live indoors or outdoors, and whether they are a flower, a succulent or a tree. The values in this table represent probabilities.
+
+The probability of one event is independent of another if the probability of the first event occuring is unaffected by whether or not the other event occurs, i.e. if P(A|B) = P (A). Let's see if this is the case with our plants dataset.
+
+Instructions
+100 XP
+In your console, calculate the answers to the questions in your script, we've given you two answers to start with
+Report the answers in your script to 2 decimal places
+Remember to use () when necessary in your calculations, and write words in lowercase and using ""
+
+
+
+
+# what is the probability that a plant lives indoors?
+0.6
+# what is the probability that a plant lives indoors, if we know that it is a flower?
+0.6
+# what is the probability that a plant is a tree?
+0.16
+# what is the probability that a plant is a tree, if we know it lives outdoors?
+0.28

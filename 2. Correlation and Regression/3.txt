@@ -1,0 +1,20 @@
+Calculating Percentage From Your Contingency Table
+Have a look at the contingency table of tobacco consumption and education you made in the last exercise. It's saved in your console as st. Let's use it to calculate some percentages!
+
+In this exercise you need to report your answers to one decimal place. You are free to do this manually, but if you want a quick way to do this through R you can use the round() function. The first argument of round() is the value that you want to round (this can be in the form of a raw number, or an equation), and the second argument is digits =, where you specify the number of decimal places you want the number rounded to. For instance, round(12.6734, digits = 2) would return the value 12.67.
+
+Instructions
+100 XP
+In your console, calculate the percentage of high school students who smoke 0-9g of tobacco per day.
+In your console, calculate what percentage of students who smoke the most are in university.
+Type your answers to one decimal place (without a percentage symbol) into your script
+
+
+
+
+
+# What percentage of high school students smoke 0-9g of tobacco?
+38.6
+
+# Of the students who smoke the most, what percentage are in university?
+57.7

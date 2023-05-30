@@ -1,0 +1,12 @@
+Distributions And Z-scores
+In the distribution shown on the right, what percentage of data will fall between the z-scores of -2 and 2?
+
+Instructions
+50 XP
+Possible Answers
+
+68%
+
+ans. 95%
+
+99%

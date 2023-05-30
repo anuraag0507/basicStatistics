@@ -1,0 +1,12 @@
+Probability II
+The probability of rolling a 6 was 1/6, yet you rolled four 6s in a row. Which of the following is not true?
+
+Instructions
+50 XP
+Possible Answers
+
+The probability of this outcome was 1/296, which was unlikely but still possible
+
+The more often you roll the dice, the closer the cumulative probability will come to 1/6
+
+ANS.> There is a high probability that following roll will produce a different number

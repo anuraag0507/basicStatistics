@@ -1,0 +1,15 @@
+
+
+
+
+# P(mint | right)
+mgr <- 7/10
+  
+# P(right)
+r <- 1/2
+  
+# P(mint)
+m <- (1/2)*(7/10) + (1/2)*(7/14)
+
+# Use components to solve P (right | mint)
+mgr*r/m

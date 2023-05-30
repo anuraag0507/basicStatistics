@@ -1,0 +1,12 @@
+Calculating Correlation Using R
+We can calculate the correlation in R using the function cor(), which takes your two variables as it's first argument. Try it out on the variables shown in the graph.
+
+Instructions
+100 XP
+In your script, calculate the correlation between var1 and var2 (these are saved in your console already)
+
+
+
+
+# Calculate the correlation between var1 and var2
+cor(var1,var2)

@@ -1,0 +1,14 @@
+Interpreting Your Scatterplot
+This is the graph you created of heighs and weights. Based on your graph, what can you say about the relationship between height and weight?
+
+Instructions
+50 XP
+Possible Answers
+
+ANS.> It is linear and positive
+
+It is linear and negative
+
+It is curvilinear and positive
+
+It is curvilinear and negative

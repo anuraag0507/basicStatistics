@@ -1,0 +1,14 @@
+R Squared I
+These are the two lines you plotted in the last assignment. One line shows the mean, and one shows the regression line. Clearly, there is less error when we use the regression line compared to the mean line. This reduction in error from using the regression line compared to the mean line tells us how well the independent variable (money) predicts the dependent variable (prosocial behaviour).
+
+Conveniently, the R squared is equivalent to squaring the Pearson R correlation coefficient. We're going to calculate the R squared for prosocial and money.
+
+Instructions
+100 XP
+In your script, calculate the R squared of the relationship between money and prosocial (saved in your console).
+Use the cor() function to find the correlation.
+
+
+
+# Calculate the R squared of prosocial and money
+cor(prosocial,money)^2

@@ -1,0 +1,11 @@
+Probability Terms I
+The symbol for a complement is c. What is the probability of X, if the probability of Xc is 0.33? Either have a look back at the lectures or check the hint if you don't remember what the complement is!
+
+Instructions
+100 XP
+Calculate the answer in your script
+
+
+
+# calculate the probability of X
+x <- 0.67

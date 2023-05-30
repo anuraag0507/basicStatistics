@@ -1,0 +1,12 @@
+Probability I
+Probability is calculated as the relative frequency of an ouctome. Let's try it out.
+
+Imagine you have a bag of 10 scrabble letters. Three of these letters are A, three are E and two are I.
+
+Instructions
+100 XP
+In your script, report the probability that you pull a letter from the bag that IS NOT an A, E or I?
+Feel free to use your console to make calculations.
+
+
+ANS.> 1 / 5
