@@ -1,0 +1,18 @@
+Calculating A Confidence Interval for a Proportion III
+So you've done most of the hard word already because you have already calculated p and the standard error. Let's finalise this by calculating the upper and lower ends of the 95% confidence interval for your road rage study. See if you can manage without the formula in front of you. If you need it you can always look it up, or press "hint".
+
+Instructions
+100 XP
+Using the objects you have already defined, add a line of code to calculate the upper level of the confidence interval
+Add a second line of code to calculate the lower level of the confidence interval
+
+
+
+# Make p the proportion of the sample with road rage 
+p <- 70 / 200
+# Find the standard error of p
+se <- sqrt( (p * (1 - p)) / 200)
+# Calculate the upper level of the confidence interval
+p + 1.96 * se
+# Calculate the lower level of the confidence interval
+p - 1.96 * se
