@@ -1,0 +1,21 @@
+Labelling A Bar Graph
+Now we're going to add some labels to the bar graph, still using barplot().
+ The first argument of barplot() was a vector of the bar heights. Following this, we can add arguments to format the graph as necessary. For instance, barplot(height, argument1, argument2). Here we are going to add a label to the y axis using the argument ylab = "name here", and x axis labels to the bars using the argument names.arg = "vector of names here".
+
+Instructions
+100 XP
+Make a vector of the names of the bars using the c() command. Assign this to 
+the variable barnames. Remember that the first bar is automatic and the second is manual.
+Add the ylab = and names.arg = commands to your barplot(height) code
+Label the y axis "number of cars" and use barnames to label the bars.
+Remeber that arguments in a function are separated with a comma 
+(e.g. function(argument1, argument2, argument3))
+
+
+
+# vector of bar heights
+height <- table(mtcars$am)
+# Make a vector of the names of the bars called "barnames"
+barnames <- c("automatic", "manual")
+# Label the y axis "number of cars" and label the bars using barnames
+barplot(height, ylab = "number of cars", names.arg = barnames)

@@ -1,0 +1,11 @@
+Interpreting A Bar Graph
+Based on the bar chart of transmission type that 
+you made in the previous exercise, which type of transmission is most common? 
+(remember, 0 = automatic, 1 = manual)
+
+
+Possible Answers
+
+ans. automatic
+
+manual

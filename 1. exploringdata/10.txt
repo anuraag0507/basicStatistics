@@ -1,0 +1,19 @@
+Histograms
+It can be useful to plot frequencies as histograms to visualize the spread of our data.
+
+Let's make a histogram of the number of carburetors in our mtcars 
+dataset using the function hist(). The first argument of hist() is vector of values for which the histogram is desired. Following this, we can add arguments to format the graph as necessary. For instance, hist(variable, argument1, argument2)
+
+Instructions
+100 XP
+In your script, write a code to produce a histogram of the number of carburetors 
+in each car using the variable carb of the data set mtcars.
+Make the title of this histogram "Carburetors" by adding the 
+argument main = "title*" inside your hist() function.
+Remember, you can select a specific variable using either $ or [,]. 
+If you need to look at your data you can simply enter mtcars into your console, or if you just want to check the variables you can always enter str(mtcars) in your console.
+
+
+
+# Make a histogram of the carb variable from the mtcars data set. Set the title to "Carburetors"
+hist(mtcars$carb, main = "Carburetors")

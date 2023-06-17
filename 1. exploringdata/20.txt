@@ -1,0 +1,15 @@
+QR outliers
+In the boxplot you created you can see a circle above the boxplot. This indicates an outlier. We can calculate an outlier as a value 1.5 * IQR above the third quartile, or 1.5 * IQR below the first quartile. Let's try it out with the qsec variable from mtcars.
+
+Instructions
+100 XP
+In your console, find the value of the interquartile range of the qsec variable of mtcars using IQR().
+In your console, find the values of the first and third quartiles of the qsec variable of mtcars using quantile()
+In your console, calculate the upper threshold value for an outlier. Report this value in your script.
+In your console, calculate the lower threshold value for an outlier. Report this value in your script.
+
+
+# What is the threshold value for an outlier below the first quartile?
+13.88125
+# What is the threshold value for an outlier above the third quartile?
+21.91125

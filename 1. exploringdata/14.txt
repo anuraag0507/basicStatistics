@@ -1,0 +1,12 @@
+Mean and Median
+We can measure the mean and median of a variable using the functions mean() and median(), using the variable in question as the first argument between brackets. Let's try it out!
+
+Instructions
+100 XP
+In the editor calculate the mean and median miles per gallon (mpg) of the mtcars data set
+Remember, you can select a specific variable using either $ or [,]. If you need to look at your data you can simply enter mtcars into your console, or if you just want to check the variables you can always enter str(mtcars) in your console.
+
+# Calculate the mean miles per gallon
+mean(mtcars$mpg)
+# Calculate the median miles per gallon
+median(mtcars$mpg)
