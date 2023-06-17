@@ -1,2 +1,0 @@
-#How many of the cars have a manual transmission?
-13

@@ -1,2 +1,0 @@
-# What percentage of cars have 3 or 5 gears?
-62.5

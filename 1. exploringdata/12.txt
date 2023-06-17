@@ -1,8 +1,0 @@
-Bar Graph vs. Histogram
-Why did we make a bar graph of transmission (mtcars$am), 
-but a histogram of carburetors (mtcars$carb)
-Possible Answers
-
-Because transmission is continuous, and carb is categorical
-
-Ans. Because transmission is categorical, and carb is continuous
