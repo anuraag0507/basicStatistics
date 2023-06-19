@@ -1,0 +1,26 @@
+Calculating a Confidence Interval Without The Population Standard Deviation
+Unfortunately in reality we usually don't know a population standard deviation, and thus must rely on sample standard deviations and T-scores. T-scores come from T-distributions, which help us account for error that occurs when we sample from a population. We use a different T-distribution to calculate cumulative probabilites depending on our degrees of freedom.
+
+Lets say we conducted another study on how often people get angry when they're driving (known as 'road rage') using a sample of 200 people chosen at random, saved in your console as rrage. Let's calculate the 95% confidence interval for where the population mean lies.
+
+This time we must use a slightly different formula: sample mean +/- t value * standard error. The standard error is calculated as the population standard deviation, divided by the square root of the sample size. The T-score for a df of 199 is 1.9720.
+
+Instructions
+100 XP
+The road rage level of each participant in your sample is saved in your console as rrage
+Complete the steps in your script to calculate the confidence interval for rrage
+Remember to format your calculations correctly and use () where appropriate
+
+
+
+# Assign the sample mean to object "m"
+m <- mean(rrage)
+
+# Assign the sample standard error to object "s"
+s <- sd(rrage) / sqrt(200)
+
+# Calculate the upper 95% confidence interval
+m + ( 1.9720 * s )
+
+# Calculate the lower 95% confidence interval
+m - ( 1.9720 * s)

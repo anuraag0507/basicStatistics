@@ -1,0 +1,16 @@
+Confidence Interval With Known SD I
+We know that in a normally distributed phenomenon, 95% of cases will fall within 1.96 standard deviations above and below the mean. Let's see what that would look like. Imagine we magically know that the world population mean for happiness has a value of 36.5, with a standard deviation of 7. Let's find out where 95% of the people in the world lie.
+
+Instructions
+100 XP
+In your script, calculate the amount above and below 36.5 that 95% of the world falls
+Remember to format your calculations correctly and use () where appropriate
+
+
+
+
+# above
+36.5 + ( 1.96 * 7 )
+
+# below
+36.5 - ( 1.96 * 7 )

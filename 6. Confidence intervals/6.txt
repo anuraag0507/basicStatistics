@@ -1,0 +1,12 @@
+Assumptions For Calculating A Confidence Interval
+Which of the following is not necessarily a criteria for calculating a confidence interval using a T-distribution?
+
+Instructions
+50 XP
+Possible Answers
+
+Ans.> Normally distributed data
+
+Randomly sampled data
+
+Absence of outliers

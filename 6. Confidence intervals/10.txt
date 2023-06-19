@@ -1,0 +1,20 @@
+Calculating A Confidence Interval for a Proportion IV
+Your road rage study suggested that a proportion of 0.375 of your sample felt that they had road rage. The 95% confidence interval was from 0.308 to 0.442. What does this mean?
+
+Instructions
+50 XP
+Possible Answers
+
+95% of people in the population will have road rage between 0.308 and 0.375.
+
+It is unlikely that the road rage proportion in the population is 0.375
+
+Ans.> We are 95% sure that the road rage proportion in the population 
+will lie between 0.308 and 0.442.
+
+We are 95% sure that the road rage proportion in the population is 0.375.
+
+
+
+
+

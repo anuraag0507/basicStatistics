@@ -1,0 +1,27 @@
+Other Types Of Confidence Intervals I
+The last confidence interval you calculated was the 95% confidence interval for the proportion of people who said they had road rage. Now let's try finding the 99% confidence interval (corresponding to a Z score of 2.58), and comparing what happens when we use these different intervals.
+
+Instructions
+100 XP
+In your console, copy the steps from your script, and use this to calculate the range of the 95% confidence interval
+In your console, copy and adapt the code from your script for finding the 99% confidence interval, and use this to calculate the range of the 99% confidence interval
+In your script, report the ranges of each interval
+In your script, report which confidence interval is wider as a single number (95 or 99)
+
+
+
+
+# Make p the proportion of the sample with road rage 
+p <- 75 / 200
+# Find the standard error of p
+se <- sqrt( (p * (1 - p)) / 200)
+# Calculate the upper level of the 95% confidence interval
+p + 1.96 * se
+# Calculate the lower level of the 95% confidence interval
+p - 1.96 * se
+# Report the range of the 95% confidence interval
+0.134192
+# Report the range of the 99% confidence interval
+0.1766405
+# Which has the widest range?
+99
