@@ -1,0 +1,12 @@
+Sample Size I
+Which of the following does a large sample size reduce?
+
+Instructions
+50 XP
+Possible Answers
+
+The standard deviation
+
+Ans.> The margin of error
+
+The level of confidence

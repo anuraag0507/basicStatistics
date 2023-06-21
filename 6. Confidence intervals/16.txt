@@ -1,0 +1,15 @@
+Sample Size II
+You're interested in looking at how many days in the week students drink alcohol, and need to know what kind of sample size to use. You know that to find this out, you need a Z-score, a margin of error and a standard deviation. Let's try to establish the standard deviation first. You expect that about 95% of people will consume an alcoholic drink between 1 and 6 days in the week.
+
+Instructions
+100 XP
+Assuming that your data is normally distributed, and that 95% of people will report consuming alcohol between 1 and 6 days in the week, report the expected mean number of drinking days.
+Based on the expected distribution, and mean, assign the expected standard deviation to a new object called "s".
+
+
+
+
+# What is the expected mean number of drinking days
+3.5
+# Assign standard deviation to object "s"
+s <- 1.25

@@ -1,0 +1,25 @@
+Confidence Interval With Known SD II
+In the last question we demonstrated how 95% of a population fall between 1.96 standard deviations above and below the population mean.
+Let's pretend we have psychic knowledge that the standard deviation of sadness in the world is 8, but we need to find out what the mean is. We take a sample of 300 people. Let's estimate where the population mean is likely to lie using this sample.
+
+If you remember, the formula for calculating the confidence interval is the sample mean +/- 1.96 * standard deviation. In this case, the standard deviation is the population standard deviation, divided by the square root of the sample size.
+
+Instructions
+100 XP
+The saddness level of each participant in your sample is saved in your console as samp
+Complete the steps in your script to calculate the confidence interval for samp
+Remember to format your calculations correctly and use () where appropriate
+
+
+
+# Assign the sample mean to object "m"
+m <- mean(samp)
+
+# Assign the standard deviation to object "s"
+s <- 8 / sqrt(300)
+
+# Calculate the upper confidence interval
+m + ( 1.96 * s )
+
+# Calculate the lower confidence interval
+m - ( 1.96 * s )
