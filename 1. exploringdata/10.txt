@@ -1,4 +1,4 @@
-Histograms
+Q. Histograms
 It can be useful to plot frequencies as histograms to visualize the spread of our data.
 
 Let's make a histogram of the number of carburetors in our mtcars 
