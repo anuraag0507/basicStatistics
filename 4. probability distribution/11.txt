@@ -7,13 +7,6 @@ When we want to calculate the probability of answering 5 questions correctly, we
 This function calculates an exact probability. If we would like to calculate an interval of probabilities, say the probability of answer 5 or more questions correctly, 
 we can use the pbinom function. We have already seen a similar function when we were dealing with the normal distribution: the pnorm() function.
 
-Instructions
-100 XP
-Look at the documentation of the functions dbinom() and pbinom(). 
-Calculate the exact probability of answering 5 questions correctly and store this in the variable five_correct
-Calculate the cumulative probability of answering at least 5 questions correctly and store this in the variable atleast_five_correct
-
-
 
 
 
