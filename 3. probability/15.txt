@@ -2,8 +2,6 @@ Course Outline
 Daily XP
 1250
 
-
-Exercise
 Exercise
 Unions
 You are picking flowers from a garden. The garden contains flowers of varying colors, including flowers that are completely blue, flowers that are completely pink, and also flowers that are both colours. The probability of picking a flower that is at least partly blue is 0.4 and the probability of picking a flower that is at least partly pink is 0.2. Let's think about some probabilities!
