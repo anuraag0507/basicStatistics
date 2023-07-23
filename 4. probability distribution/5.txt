@@ -7,7 +7,6 @@ If we want to turn that variance into the standard deviation, all we need to do 
 
 
 Instructions
-100 XP
 Calculate the variance of the mass function displayed above and store this in a variable called variance. The mean of probability mass function, displayed as 
  in the formula, is stored in the variable expected_score. Note that you have a dataframe data available in your console that contains a vector of outcomes called outcome and a vector of probabilities called probs. This dataframe is the exact same as the table displayed above.
 Calculate the standard deviation of the mass function displayed above and store this in a variable called std.
