@@ -1,6 +1,5 @@
 Summary statistics: Variance and the standard deviation
-In addition to the mean, sometimes you would also like to know about the spread of the distribution. The variance is often taken as a measure of spread of a distribution. It is the squared deviation of an observation from its mean. If you want to calculate it on the basis of a probability distribution, it is the sum of the squared difference between the individual observation and their mean multiplied by their probabilities. See the following formula: 
-.
+In addition to the mean, sometimes you would also like to know about the spread of the distribution. The variance is often taken as a measure of spread of a distribution. It is the squared deviation of an observation from its mean. If you want to calculate it on the basis of a probability distribution, it is the sum of the squared difference between the individual observation and their mean multiplied by their probabilities. See the following formula:
 
 If we want to turn that variance into the standard deviation, all we need to do is to take its square root. Let's go back to our probability mass function of the first exercise and see if we can get the variance.
 
