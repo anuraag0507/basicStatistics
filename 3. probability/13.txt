@@ -2,7 +2,7 @@ Practise With Sets II
 Before approaching the first 3 people in the street to ask whether or not they drink alcohol you assume that the probability of a 'yes' answer is 0.6, and a 'no' answer is 0.4, and you now consider the probability of various outcomes. We will assume independence in this situation because one person (trial) won't influence whether or not another person drinks.
 
 Instructions followed:
-100 XP
+
 Answer the questions in your script by writing 
 out your calculations in full below
 
