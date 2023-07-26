@@ -11,7 +11,6 @@ calculates the cumultative probability. We can use it the following way: pnorm(3
 
 Instructions
 100 XP
-Instructions
 100 XP
 Calculate the probability of a woman having a hair length less than 20 centimeters using a mean of 25 and a standard deviation 
 of 5. Use the pnorm() function and round the value to two decimals.
