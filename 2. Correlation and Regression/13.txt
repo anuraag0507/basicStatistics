@@ -2,7 +2,7 @@ Describing The Line
 The equation for the blue line in the graph is Y = 1 + 0.7818(X). What is the equation for the red line?
 
 Instructions
-50 XP
+
 Possible Answers
 
 Y = 1 + 3.7818(x)
