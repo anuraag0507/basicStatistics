@@ -3,7 +3,7 @@ Remember the concept of quantiles? If not, let me briefly recap it.
 Quantiles are used when you have a probability and you want to associate this probability with a value. 
 In our last example we had 25 questions and the probability of guessing a question correctly was 0.2. Also, in our last example we wanted to know the probability of answering at least 5 questions correctly and used the pbinom() function to do so. With quantiles, we do the exact opposite; we want to calculate the value that is associated with for instance the 0.2 quantile (=20th percentile). In case we are working with a binomial distribution, we can use the function qbinom() for this.
 
-Instructions
+#Instructions
 Calculate the 60th percentile of the binomial distribution of exam questions. Note that the number of questions is 25 and the probability of guessing a question correctly 
 is 0.2.
 
