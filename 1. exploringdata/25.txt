@@ -2,7 +2,6 @@ Z-score Outliers
 Outside of which boundaries might an observation be considered an outlier?
 
 Instructions
-50 XP
 Possible Answers
 
 -2 and 2
