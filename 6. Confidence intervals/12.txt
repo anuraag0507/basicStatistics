@@ -5,7 +5,7 @@ Instructions
 100 XP
 In your console, copy the steps from your script, and use this to calculate the range of the 95% confidence interval
 In your console, copy and adapt the code from your script to calculate the range of the 90% confidence interval
-In your script, report the ranges of each interval
+In your script, report the ranges of each interval 
 In your script, report which confidence interval is larger as a single number (95 or 90)
 
 
