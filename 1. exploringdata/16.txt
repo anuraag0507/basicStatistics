@@ -6,7 +6,6 @@ When you have a large data set, the output of table() might be too long to manua
 Lets use sort() and table() to find the mode of the carb variable of mtcars.
 
 Instructions
-100 XP
 Produce a frequency table of carb from mtcars in descending order of frequency
 Remember that you should separate arguments with a comma
 
