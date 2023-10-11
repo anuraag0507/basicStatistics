@@ -14,7 +14,7 @@ Finally make a plot with as x variable the data vector and as y variable the den
 
 # simulating data
 set.seed(11225)
-data <- rnorm(10000)
+data <-  rnorm(10000)
 
 # check for documentation of the dnorm function
 help(dnorm)
