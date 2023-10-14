@@ -12,7 +12,6 @@ The mean is calculated by multiplying the number of trials n by the
 probability of a success denoted by p. The standard deviation of a binomial distribution is calculated by the following formula: .
 
 Instructions
-100 XP
 Consider an example where we have made an exam consisting of 25 multiple choice questions. 
 Each questions has 5 possible answers. This means that the probability of answering a question correctly by chance is 0.2. Calculate the mean of this distribution and store it in a variable called mean_chance
 Calculate the standard deviation of this distribution and store it in the variable std_chance.
