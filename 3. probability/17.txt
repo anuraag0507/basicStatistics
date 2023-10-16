@@ -4,7 +4,6 @@ Enter plants into your console to see information about whether 90 plants live i
 Let's use these probability values to find some conditional probabilities. To do this you need to use the formula .
 
 Instructions
-100 XP
 In your console, calculate the answers to the questions in your script
 Report the answers in your script to 2 decimal places (you can always use the round() function for this, with the argument digits = 2)
 Remember to use () when necessary in your calculations
