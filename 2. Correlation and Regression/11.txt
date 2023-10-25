@@ -9,7 +9,6 @@ Interpreting The Line
 This graph shows how prosocial someone is after you give them money. Use the graph to answer the following questions. You can round your answer up to the nearest whole number
 
 Instructions
-100 XP
 How prosocial would we predict someone to be when they recieve 6 units of money?
 How prosical was the person who recieved 6 units of money in our study?
 
