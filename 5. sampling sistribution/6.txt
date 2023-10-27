@@ -6,7 +6,6 @@ Earlier we touched on the sampling distribution and its mean and standard deviat
 In this exercise we will take a look at a new population of simulated household income of citizens in the United States. The data is stored in a variable called household_income. This population is right skewed. We will take a 1000 samples of n = 200 from this population and calculate the sample mean each time. You will see that the sampling distribution, just as the central limit theorem states, is normally distributed.
 
 Instructions
-100 XP
 Make a histogram of the variable household_income and see how the population is skewed to the right.
 Make a histogram of the variable sample_means. Can you see how this variable looks normally distributed?
 You can press on the button "Previous plot" to check the previous histogram.
