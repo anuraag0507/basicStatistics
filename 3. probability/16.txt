@@ -4,7 +4,6 @@ Enter plants into your console to see frequency information about 90 plants in a
 You can calculate the probabilities of a given plant and living conditions based on the frequency with which this occurs in the table. For example, the probability of a plant being a tree is 14/90 = 0.1555556.
 
 Instructions
-100 XP
 In your console, calculate the answers to the questions in your script
 Report the answers in your script to 2 decimal places
 Remember to use () when necessary in your calculations
